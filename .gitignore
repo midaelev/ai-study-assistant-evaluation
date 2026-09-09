@@ -1,0 +1,31 @@
+# Local Python environment
+.venv/
+venv/
+
+# Private research materials
+reference_answers_private/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Microsoft Office temporary files
+~$*
+
+# VS Code local settings
+.vscode/
+
+# Other temporary files
+*.tmp
+*.temp
+
+# Private or source-review-pending research data
+data/questions.csv
+data/scored_responses.csv
+data/second_rater_question_bank.xlsx
