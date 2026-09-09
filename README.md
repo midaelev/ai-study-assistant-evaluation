@@ -168,31 +168,26 @@ The notebook uses relative file paths, so the repository structure should be pre
 ## Repository Structure
 
 ```text
-research1.0/
+ai-study-assistant-evaluation/
 ├── analysis/
 │   ├── evaluation_protocol.md
 │   ├── qualitative_case_studies.md
 │   └── rater_protocol.md
 ├── audit/
-│   ├── version_inventory.md
+│   ├── audit_log.xlsx
 │   ├── audit_report.docx
-│   └── audit_log.xlsx
-├── data/
-│   ├── questions.csv
-│   ├── scored_responses.csv
-│   └── second_rater_question_bank.xlsx
+│   └── version_inventory.md
 ├── figures/
 │   ├── average_overall_score_by_model.png
 │   ├── criterion_scores_by_model.png
+│   ├── learning_behavior_heatmap.png
 │   ├── overall_score_boxplot.png
-│   ├── subject_model_comparison.png
-│   └── learning_behavior_heatmap.png
+│   └── subject_model_comparison.png
 ├── notebook/
 │   └── ai_tutor_analysis.ipynb
-├── reference_answers_private/
-│   └── reference_answers_private.csv
-├── README.md
-├── data_dictionary.md
+├── .gitignore
 ├── coding_log.md
+├── data_dictionary.md
+├── README.md
 └── requirements.txt
 ```
