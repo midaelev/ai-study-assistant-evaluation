@@ -1,0 +1,121 @@
+question_id,question_type,difficulty_level,model_name,accuracy_score,reasoning_completeness_score,explanation_clarity_score,tutoring_effectiveness_score,overall_score,error_type,subject_specific_error,severity_level,overconfident_wrong_flag,learning_transfer_support,misconception_awareness,self_check_support,confidence_calibration,cognitive_load_level
+1,Statistics,easy,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+1,Statistics,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+1,Statistics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+1,Statistics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,yes,good,low
+2,Statistics,easy,ChatGPT,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,medium
+2,Statistics,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+2,Statistics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+2,Statistics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+3,Statistics,easy,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+3,Statistics,easy,Claude,3,3,2,3,2.75,none,none,none,no,yes,no,no,good,low
+3,Statistics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+3,Statistics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+4,Statistics,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+4,Statistics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+4,Statistics,medium,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+4,Statistics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,yes,good,low
+5,Statistics,medium,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+5,Statistics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+5,Statistics,medium,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+5,Statistics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+6,Statistics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+6,Statistics,hard,Claude,3,3,2,3,2.75,none,none,none,no,yes,yes,no,good,medium
+6,Statistics,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+6,Statistics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+7,Statistics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+7,Statistics,hard,Claude,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,medium
+7,Statistics,hard,Grok,3,2,3,2,2.5,none,none,none,no,yes,no,no,good,medium
+7,Statistics,hard,Qwen,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,medium
+8,Statistics,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,medium
+8,Statistics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+8,Statistics,medium,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+8,Statistics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,medium
+9,Statistics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+9,Statistics,hard,Claude,3,3,2,2,2.5,none,none,none,no,yes,no,no,good,medium
+9,Statistics,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+9,Statistics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+10,Statistics,hard,ChatGPT,3,3,2,2,2.5,none,none,none,no,yes,no,no,good,medium
+10,Statistics,hard,Claude,3,3,2,3,2.75,none,none,none,no,yes,no,no,good,medium
+10,Statistics,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+10,Statistics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+11,Mathematics,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+11,Mathematics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+11,Mathematics,medium,Grok,3,3,3,3,3.0,none,none,none,no,partial,no,yes,good,low
+11,Mathematics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+12,Mathematics,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+12,Mathematics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+12,Mathematics,medium,Grok,3,3,3,3,3.0,none,none,none,no,partial,no,yes,good,low
+12,Mathematics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,partial,no,yes,good,low
+13,Mathematics,easy,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+13,Mathematics,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,medium
+13,Mathematics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+13,Mathematics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+14,Mathematics,easy,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+14,Mathematics,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+14,Mathematics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+14,Mathematics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+15,Mathematics,easy,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+15,Mathematics,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+15,Mathematics,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+15,Mathematics,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+16,Mathematics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+16,Mathematics,hard,Claude,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,medium
+16,Mathematics,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+16,Mathematics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+17,Mathematics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+17,Mathematics,hard,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+17,Mathematics,hard,Grok,3,3,2,3,2.75,none,none,none,no,yes,no,no,good,medium
+17,Mathematics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+18,Mathematics,medium,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+18,Mathematics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+18,Mathematics,medium,Grok,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+18,Mathematics,medium,Qwen,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+19,Mathematics,medium,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+19,Mathematics,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+19,Mathematics,medium,Grok,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+19,Mathematics,medium,Qwen,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+20,Mathematics,hard,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+20,Mathematics,hard,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+20,Mathematics,hard,Grok,3,3,2,3,2.75,none,none,none,no,yes,no,no,good,low
+20,Mathematics,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+21,Python / Introductory Computer Science,easy,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+21,Python / Introductory Computer Science,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+21,Python / Introductory Computer Science,easy,Grok,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+21,Python / Introductory Computer Science,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+22,Python / Introductory Computer Science,easy,ChatGPT,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,low
+22,Python / Introductory Computer Science,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+22,Python / Introductory Computer Science,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+22,Python / Introductory Computer Science,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+23,Python / Introductory Computer Science,easy,ChatGPT,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,low
+23,Python / Introductory Computer Science,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+23,Python / Introductory Computer Science,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+23,Python / Introductory Computer Science,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+24,Python / Introductory Computer Science,medium,ChatGPT,3,1,2,1,1.75,none,none,none,no,no,no,no,good,low
+24,Python / Introductory Computer Science,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+24,Python / Introductory Computer Science,medium,Grok,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+24,Python / Introductory Computer Science,medium,Qwen,2,2,2,2,2.0,hallucinated_concept,invented nonexistent B→E graph edge,Moderate,yes,partial,no,no,partial,low
+25,Python / Introductory Computer Science,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+25,Python / Introductory Computer Science,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+25,Python / Introductory Computer Science,medium,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+25,Python / Introductory Computer Science,medium,Qwen,3,3,2,3,2.75,none,none,none,no,yes,no,no,good,low
+26,Python / Introductory Computer Science,easy,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+26,Python / Introductory Computer Science,easy,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+26,Python / Introductory Computer Science,easy,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+26,Python / Introductory Computer Science,easy,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+27,Python / Introductory Computer Science,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,no,no,no,good,low
+27,Python / Introductory Computer Science,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,yes,good,low
+27,Python / Introductory Computer Science,medium,Grok,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+27,Python / Introductory Computer Science,medium,Qwen,3,3,3,3,3.0,none,none,none,no,partial,no,no,good,low
+28,Python / Introductory Computer Science,medium,ChatGPT,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+28,Python / Introductory Computer Science,medium,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+28,Python / Introductory Computer Science,medium,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+28,Python / Introductory Computer Science,medium,Qwen,2,2,3,2,2.25,conceptual_error,incorrectly described the reversal loop,Moderate,yes,partial,no,no,partial,low
+29,Python / Introductory Computer Science,hard,ChatGPT,3,3,3,2,2.75,none,none,none,no,yes,no,no,good,low
+29,Python / Introductory Computer Science,hard,Claude,3,3,3,3,3.0,none,none,none,no,yes,yes,no,good,low
+29,Python / Introductory Computer Science,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+29,Python / Introductory Computer Science,hard,Qwen,2,3,3,2,2.5,conceptual_error,linked_list_complexity,Minor,no,yes,no,no,good,low
+30,Python / Introductory Computer Science,hard,ChatGPT,3,3,3,2,2.75,none,none,none,no,partial,no,no,good,low
+30,Python / Introductory Computer Science,hard,Claude,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+30,Python / Introductory Computer Science,hard,Grok,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low
+30,Python / Introductory Computer Science,hard,Qwen,3,3,3,3,3.0,none,none,none,no,yes,no,no,good,low

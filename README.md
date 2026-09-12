@@ -38,11 +38,16 @@ The project also examines:
 Model names and versions reflect the interfaces used during data collection.
 
 ## Dataset
-The current project dataset contains:
+The local project dataset contains:
 
 - `data/questions.csv`: question text and question-level metadata;
-- `data/scored_responses.csv`: model responses, scores, error fields, and learning behavior tags.
+- `data/scored_responses.csv`: model responses, scores, error fields, and learning behavior tags;
 - `data/second_rater_question_bank.xlsx`: independent ratings for a purposively selected subset of 32 responses used for inter-rater reliability analysis.
+
+Two public-safe analysis files are also generated for reproducibility:
+
+- `data/public_analysis_scores.csv`: question-level metadata and evaluation scores used for the main quantitative analysis;
+- `data/public_second_rater_scores.csv`: paired primary- and second-rater scores used for the inter-rater reliability analysis.
 
 Question materials are currently marked as `pending_source_review` and require source/licensing review before any public release.
 
@@ -59,7 +64,7 @@ The final audited dataset contains:
 
 ### Data Availability
 
-The evaluation dataset is not included in the public repository because the source questions are currently pending a separate review for public release. The local research dataset contains the 30 evaluation questions, 120 scored model responses, and the 32-response second-rater subset used in the reliability analysis.
+The full evaluation dataset is not included in the public repository because the source questions are currently pending a separate review for public release. The local research dataset contains the 30 evaluation questions, 120 scored model responses, and the 32-response second-rater subset used in the reliability analysis. Public-safe score files are provided separately for reproducing the quantitative analyses without releasing the full question text or raw model responses.
 
 The public repository therefore focuses on the evaluation methodology, analysis code, aggregate results, figures, and project documentation. The dataset may be released separately if the source materials are later cleared for public distribution.
 
@@ -120,11 +125,11 @@ The five core visualizations are:
 
 - The overall Friedman test did not detect a statistically significant difference in Overall Score among the four models, χ²(3) = 5.721, p = 0.126, with a small effect size (Kendall's W = 0.064). The 95% confidence intervals for the four model means also overlapped substantially.
 
-- Accuracy showed a strong ceiling effect: 117 of 120 responses received the maximum Accuracy score.
+- Accuracy showed a strong ceiling effect: 117 of 120 responses received the maximum Accuracy score. Here, Accuracy refers to substantive correctness of the response for the task; a maximum score does not necessarily imply that every auxiliary statement in the response was error-free.
 
 - At the criterion level, Tutoring Effectiveness was the only criterion that remained statistically significant after Holm correction, χ²(3) = 13.602, adjusted p = 0.014, Kendall's W = 0.151. Accuracy had a raw p-value below 0.05 but was not statistically significant after Holm correction (adjusted p = 0.088).
 
-- Post-hoc paired Wilcoxon signed-rank tests showed that only the ChatGPT–Grok comparison in Tutoring Effectiveness remained statistically significant after Holm correction (adjusted p = 0.045). Grok had the higher mean Tutoring Effectiveness score (2.900 vs. 2.567).
+- Post-hoc paired Wilcoxon signed-rank tests showed that only the ChatGPT–Grok comparison in Tutoring Effectiveness remained statistically significant after Holm correction (adjusted p = 0.045). Grok had the higher mean Tutoring Effectiveness score (2.900 vs. 2.567). This result should be treated as limited benchmark-specific evidence rather than as a robust general ranking of the two models.
 
 - Subject-level patterns varied across Statistics, Mathematics, and Python / Introductory Computer Science, but these comparisons were treated as descriptive because each subject contained only 10 questions.
 
@@ -137,7 +142,7 @@ This project uses a small benchmark of 30 introductory questions, with only 10 q
 
 All 30 questions for each model were administered sequentially within a single conversation with conversational context retained between questions. Although most questions were designed to be self-contained, this procedure may have introduced context carryover across responses and therefore limits the independence of individual observations. Future evaluations could use separate conversations for independent question blocks to reduce this potential source of contamination.
 
-Most of the full dataset was evaluated by one primary rater. A second rater independently evaluated a purposively selected subset of 32 responses (26.7% of the dataset). The subset was not randomly sampled, and model identities were visible during the rating process. The reliability results should therefore be interpreted as a check within the selected subset rather than as a complete independent evaluation of all 120 responses.
+Most of the full dataset was evaluated by one primary rater, and model identities were visible during the primary scoring process. The primary evaluation was therefore not blinded, so potential model-related expectation bias cannot be ruled out. A second rater independently evaluated a purposively selected subset of 32 responses (26.7% of the dataset). The subset was not randomly sampled, and model identities were also visible during the second-rater rating process. The reliability results should therefore be interpreted as a check within the selected subset rather than as a complete independent evaluation of all 120 responses.
 
 The coarse 0–3 scoring scale and strong ceiling effects produced many tied scores, limiting the sensitivity and statistical power of some comparisons. Restricted score variation also affected the inter-rater reliability statistics: weighted Cohen's kappa could not be estimated for Reasoning Completeness, while Accuracy produced a kappa of 0.000 despite 96.9% exact agreement.
 
@@ -151,6 +156,8 @@ Model versions and consumer-facing interfaces may also change over time, which c
 
 
 ## Running the Analysis
+
+The final analysis was tested with Python 3.14.2. Exact package versions used for the final reproducibility check are recorded in `requirements.txt`.
 
 Install the required Python packages:
 
@@ -177,6 +184,9 @@ ai-study-assistant-evaluation/
 │   ├── audit_log.xlsx
 │   ├── audit_report.docx
 │   └── version_inventory.md
+├── data/
+│   ├── public_analysis_scores.csv
+│   └── public_second_rater_scores.csv
 ├── figures/
 │   ├── average_overall_score_by_model.png
 │   ├── criterion_scores_by_model.png

@@ -32,11 +32,17 @@ I used the revised prompt for all questions in the main evaluation. The question
 
 For each model, the 30 questions were collected in one continuous conversation. This meant that earlier messages remained in the conversation history. Most questions were written to work on their own, but Q2 depended on Q1 and Q19 depended on Q18, so those pairs intentionally used the preceding question as context.
 
+Model identities were visible to the primary rater during scoring. The primary evaluation was therefore not blinded, and potential model-related expectation bias cannot be ruled out.
+
 ## Scoring Rubric
 
 Each response received a score from 0 to 3 for four criteria: Accuracy, Reasoning Completeness, Explanation Clarity, and Tutoring Effectiveness.
 
 ### Accuracy
+
+Accuracy evaluates the substantive correctness of the response, with primary emphasis on whether the main answer, conclusion, and required result are correct. Errors in supporting or additional statements may lower the score when they materially affect the correctness of the response.
+
+Accordingly, an Accuracy score of 3 indicates that the response is substantively correct for the task; it should not be interpreted as a guarantee that every auxiliary statement in the response is error-free.
 
 **0 — Unacceptable**
 
@@ -114,6 +120,8 @@ The Overall Score was calculated as the average of the four criterion scores:
 
 `Overall Score = (Accuracy + Reasoning Completeness + Explanation Clarity + Tutoring Effectiveness) / 4`
 
+The four criteria were weighted equally when calculating the Overall Score. This weighting was chosen as a simple summary of performance across the four evaluation dimensions rather than as an empirically validated weighting scheme. Criterion-level results are therefore also reported separately.
+
 The error-analysis fields and learning-behavior tags were recorded separately and did not affect the Overall Score.
 
 ## Error Analysis
@@ -159,6 +167,8 @@ No meaningful error was identified. Minor stylistic or formatting issues were no
 ## Learning-Behavior Tags
 
 In addition to the main scores, I recorded five learning-behavior tags. I used these to look at tutoring-related features that were not fully represented by the four numerical criteria.
+
+The learning-behavior tags were manually assigned as descriptive annotations based on the observed response characteristics. Numerical values derived from these tags were used only for descriptive visualization and should not be interpreted as validated educational or psychometric measurements.
 
 ### `learning_transfer_support`
 

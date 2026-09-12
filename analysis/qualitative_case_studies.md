@@ -14,7 +14,7 @@ The cases were selected purposively rather than randomly. Selection focused on r
 Q24 was selected as a substantive-error case because Qwen introduced a directed edge that was not present in the question. Unlike a response that was merely incomplete or overly verbose, this response changed the graph itself by adding a nonexistent B → E edge, which led to an incorrect adjacency list. The error is useful to examine because the invented edge appeared within an otherwise plausible and systematic response.
 
 ### Question Context
-Q24 asked the models to construct an adjacency list for a directed graph described explicitly in text. The graph contained six directed edges: A → B, B → C, C → E, D → B, E → D, and E → F. For each vertex, the model was required to list its outgoing adjacent vertices in alphabetical order under a given format.
+Q24 asked the models to construct an adjacency list for a directed graph from information supplied in the question. The task required identifying the outgoing neighbors of each vertex. Because the original question materials are pending source and permission review, the complete graph specification is not reproduced here.
 
 ### Responses Compared
 Qwen and Grok were compared because both attempted to derive the adjacency list directly from the supplied edge information, but they differed on the outgoing edges from vertex B.
@@ -55,7 +55,7 @@ For a learner, this type of error may be especially difficult to detect because 
 Q28 was selected because Qwen reached the correct final time complexity, Θ(n²), while making a substantive conceptual error in its explanation of the code. Unlike Q24, the error did not change the requested final result. This makes Q28 useful for examining whether final-answer correctness can hide a problem in the reasoning presented to the learner.
 
 ### Question Context
-Q28 asked the models to determine the time complexity T(n) of a Python function that first scans a list to find its maximum and minimum values and then uses a nested loop to move each successive element to the front of the list. The expected analysis identifies the first two scans as Θ(n), the nested-loop work as 0 + 1 + 2 + ... + (n - 1) = n(n - 1)/2 = Θ(n²), and the overall time complexity as Θ(n²).
+Q28 asked the models to analyze the time complexity of a Python function containing linear scans and a nested-loop operation. The key task was to determine the dominant asymptotic running time and explain the behavior of the code. Because the original question materials are pending source and permission review, the complete function is not reproduced here.
 
 ### Responses Compared
 Qwen and Claude were compared because both models correctly identified the nested loop as the dominant source of the function's Θ(n²) running time, but they differed in their interpretation of what that loop does.
