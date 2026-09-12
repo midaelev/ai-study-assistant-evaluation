@@ -38,7 +38,7 @@ Model identities were visible to the primary rater during scoring. The primary e
 
 Each response received a score from 0 to 3 for four criteria: Accuracy, Reasoning Completeness, Explanation Clarity, and Tutoring Effectiveness.
 
-### Accuracy
+### Accuracy / Substantive Correctness
 
 Accuracy evaluates the substantive correctness of the response, with primary emphasis on whether the main answer, conclusion, and required result are correct. Errors in supporting or additional statements may lower the score when they materially affect the correctness of the response.
 

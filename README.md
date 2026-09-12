@@ -71,7 +71,7 @@ The public repository therefore focuses on the evaluation methodology, analysis 
 ## Evaluation Framework
 Each response was evaluated on a 0–3 scale using four criteria:
 
-1. **Accuracy**
+1. **Accuracy / Substantive Correctness**
 2. **Reasoning Completeness**
 3. **Explanation Clarity**
 4. **Tutoring Effectiveness**
