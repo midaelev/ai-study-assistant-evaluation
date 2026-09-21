@@ -190,7 +190,7 @@ ai-study-assistant-evaluation/
 ├── figures/
 │   ├── average_overall_score_by_model.png
 │   ├── criterion_scores_by_model.png
-│   ├── learning_behavior_heatmap.png
+│   ├── learning_behavior_proportions.png
 │   ├── overall_score_boxplot.png
 │   └── subject_model_comparison.png
 ├── notebook/
